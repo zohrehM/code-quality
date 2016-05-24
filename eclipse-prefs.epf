@@ -69,6 +69,8 @@ file_export_version=3.0
 
 #Java Persistence
 /instance/org.eclipse.jpt.core/problem.XML_VERSION_NOT_LATEST=error
+/instance/org.eclipse.jpt.core/problem.PROJECT_NO_CONNECTION=ignore
+/instance/org.eclipse.jpt.core/problem.PERSISTENCE_MULTIPLE_PERSISTENCE_UNITS=error
 
 #Maven
 /instance/org.eclipse.m2e.core/eclipse.m2.defaultPomEditorPage=true
