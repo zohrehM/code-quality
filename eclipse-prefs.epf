@@ -76,3 +76,7 @@ file_export_version=3.0
 /instance/org.eclipse.m2e.core/eclipse.m2.defaultPomEditorPage=true
 /instance/org.eclipse.m2e.core/eclipse.m2.downloadJavadoc=true
 /instance/org.eclipse.m2e.core/eclipse.m2.downloadSources=true
+#→Java EE Integration
+#Disable these two, otherwise eclipse adds these natures when Maven-updating project, which (for JSF) creates default configuration files.
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.jaxrs.enabler.enabled=false
+/instance/org.eclipse.m2e.wtp/org.eclipse.m2e.wtp.jsf.enabler.enabled=false
